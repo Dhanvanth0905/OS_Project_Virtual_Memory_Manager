@@ -23,7 +23,7 @@ This project consists of writing a program that translates logical to physical a
 * Concatenate: ‘Frame Number’ and ‘Offset’ to get the corresponding ‘Physical address’.
 * With frame number and offset, data can be extracted from physical memory.
 
-![image](https://user-images.githubusercontent.com/32425672/36358889-ee1b5380-14c9-11e8-9f5d-4df9de38a156.png)
+![image](image1.png)
 ![image](https://user-images.githubusercontent.com/32425672/36358891-f2f32bbc-14c9-11e8-80b0-f42b602007c2.png)
 
 
