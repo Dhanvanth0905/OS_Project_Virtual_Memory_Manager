@@ -24,13 +24,14 @@ This project consists of writing a program that translates logical to physical a
 * With frame number and offset, data can be extracted from physical memory.
 
 ![image](image1.png)
-![image](https://user-images.githubusercontent.com/32425672/36358891-f2f32bbc-14c9-11e8-80b0-f42b602007c2.png)
 
 
             
 
 To handle the page fault, a BACKING_STORE.bin is consulted. It represent a hard drive which can be accessed randomly. When there is a page fault, data will be found in BACKING_STORE.bin with corresponding page number. The data will be allocated in the physical memory where there is an available frame. After that, TLB and page table will be updated with frame number and page number.
 
+
+![image](image2.png)
 
 ### Configuration:
 
